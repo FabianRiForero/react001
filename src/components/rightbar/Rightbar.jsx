@@ -46,7 +46,7 @@ const Rightbar = ({profile}) => {
           <div className="rightbarFollowing">
             <img src="/assets/person/1.jpeg" alt="" className="rightbarFollowingImg" />
             <span className="rightbarFollowingName">John Carter</span>
-          </div>
+            </div>
           <div className="rightbarFollowing">
             <img src="/assets/person/2.jpeg" alt="" className="rightbarFollowingImg" />
             <span className="rightbarFollowingName">John Carter</span>
@@ -74,7 +74,7 @@ const Rightbar = ({profile}) => {
   return (
     <div className='rightbar'>
       <div className="rightbarWrapper">
-        <ProfileRightbar />
+        {profile === 'profile' ? <ProfileRightbar /> : profile === 'home' ? <HomeRightbar /> : ''}
       </div>
     </div>
   )
