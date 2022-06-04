@@ -2,22 +2,22 @@ import './register.css';
 
 const Register = () => {
   return (
-    <div className="login">
-    <div className="loginWrapper">
-      <div className="loginLeft">
-        <h3 className="loginLogo">Lamasocial</h3>
-        <span className="loginDesc">
+    <div className="register">
+    <div className="registerWrapper">
+      <div className="registerLeft">
+        <h3 className="registerLogo">Lamasocial</h3>
+        <span className="registerDesc">
           Connect with friends and the world around you on Lamasocial.
         </span>
       </div>
-      <div className="loginRight">
-        <div className="loginBox">
-          <input type="text" placeholder='Username' className="loginInput" />
-          <input type="email" placeholder='Email' className="loginInput" />
-          <input type="password" placeholder='Password' className="loginInput" />
-          <input type="password" placeholder='Password Again' className="loginInput" />
-          <button className="loginButton">Sing Up</button>
-          <button className="loginRegisterButton">Log into Account</button>
+      <div className="registerRight">
+        <div className="registerBox">
+          <input type="text" placeholder='Username' className="registerInput" />
+          <input type="email" placeholder='Email' className="registerInput" />
+          <input type="password" placeholder='Password' className="registerInput" />
+          <input type="password" placeholder='Password Again' className="registerInput" />
+          <button className="registerButton">Sing Up</button>
+          <button className="registerRegisterButton">Log into Account</button>
         </div>
       </div>
     </div>
